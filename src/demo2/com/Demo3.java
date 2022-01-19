@@ -1,5 +1,7 @@
 package demo2.com;
 
+import org.junit.Test;
+
 public class Demo3 {
 
     public static void main(String[] args) {
@@ -16,6 +18,11 @@ public class Demo3 {
             System.out.println("hello woid" + count);
             count++;
         }
+    }
+
+    @Test
+    public void test2(){
+        System.out.println(12346);
     }
 
 }
